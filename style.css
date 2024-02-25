@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -138,6 +139,7 @@
     width: 100%;
     /* background-color: yellow; */
     padding: 0px 100px;
+    padding-right: 0px;
 }
 .heroSection1{
     width: 100%;
@@ -207,7 +209,7 @@
 
 
 .secondPage{
-    height: 100vh;
+    height: 125vh;
     width: 100%;
     padding: 0px 100px;
 }
@@ -218,7 +220,10 @@
     justify-content: center;
     align-items: center;
     justify-content: space-between;  
-    padding-top: 60px;
+    padding-bottom:50px;
+    padding-top: 100px;
+    cursor: pointer;
+
 }
 .card{
     height: 100px;
@@ -229,6 +234,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px 30px;
+    
     
 
 }
@@ -268,12 +274,168 @@
 
 
 .box{
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     background-color: black;
     border-radius: 11px;
     margin-top: 100px;
     background-color: #483EFF;
+    display: flex;
+    
+}
+.boxSectionOne{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 80px;
+    background-color: #BCE0F6;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.Two{
+    background-color: transparent;
+    border: solid 5px white;
+}
+.Three{
+    background-color: transparent;
+    border: solid 5px white;
+}
+.boxCardTitle{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.TA{
+    color: #000000;
+    font-weight: 700;
+}
+.One{
+    box-shadow: 0px 6px 20px 0px #00000063;
+
+}
+.boxSectionTwo{
+    width: 70%;
+    height: 100%;
+    padding: 30px;
 }
 
+.detailsBox{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 11px;
+    padding-top: 30px;
+}
+.detailTilteDiv{
+    padding: 20px 40px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.detailTilte{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.studentDetailsDiv{
+    width: 100%;
+    height: 58%;
+    padding: 20px 55px;
+}
+.studentsDetails{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
 
+}
+span{
+    font-family: "Roboto", sans-serif;
+}
+
+.btnDiv{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+}
+.nextBtn{
+    width: 120px;
+    height: 45px;
+    background-color: #000000;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.spaceSpan{
+    font-size: 20px;
+    margin-top: -3px;
+}
+
+.chat{
+    position: fixed;
+    bottom: 0%;
+    right: 8%;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 6px 20px 0px #00000063;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.chatImage{
+    width: 55px;
+    height: 55px;
+   
+}
+
+.socials{
+    width: 90px;
+    height: 240px;
+    position: sticky;
+    left: 100%;
+    top: 0%;
+    margin-left: 20px;
+    
+}
+.social{
+    height: 75px;
+    width: 90%;
+    border: solid 2px #000000;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.socialIcon{
+    height: 50px;
+    width: 50px;
+}
+
+    
